@@ -8,7 +8,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <wv2:WebView2 Name="wbSample" HorizontalAlignment="Left" Height="730" VerticalAlignment="Bottom" Width="1366"/>
+        <wv2:WebView2 Name="wbSample"
+                      HorizontalAlignment="Stretch"
+                      VerticalAlignment="Stretch" />
 
     </Grid>
 </Window>
